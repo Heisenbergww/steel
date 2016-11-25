@@ -1,0 +1,120 @@
+/*导航的下划线*/
+.menu ul li:first-child a{
+    border-bottom:2px solid #B7683F;
+}
+/*主体部分*/
+/*第一部分*/
+.container-fluid-ppt{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width:100% ;
+    min-width: 900px;
+
+}
+.ppt{
+    /*margin-top:10px;*/
+    margin-bottom: 60px;
+}
+/*第二部分*/
+.section2{
+    margin-bottom: 50px;
+    min-width: 1200px;
+}
+.section2 .col-lg-3 {
+    width: 25%;
+    padding: 0;
+}
+.row_part_square_img {
+    height: 290px;
+}
+.row_part_square_img img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.35s;
+}
+.row_part_square_words{
+    position: relative;
+    height: 290px;
+}
+.row_part_square_2:hover h2,
+.row_part_square_2:hover p{
+    color: #fff;
+}
+.row_part_square_2:hover span{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.row_part_square_2:hover .row_part_square_words{
+    background-color: #00a0e9;
+}
+
+.row_part_square_words h2{
+    margin-left: 20px;
+    color: #2b2c33;
+    font-family:DINOT-Medium;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    transition: all 0.35s;
+}
+.row_part_square_words p{
+    margin-left: 20px;
+    color: #2b2c33;
+    font-size: 18px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+.row_part_square_words span{
+    margin-left: 20px;
+    color: #B7683F ;
+    font-size: 14px;
+    padding: 10px ;
+    border: 1px solid #B7683F;
+    bottom: 60px;
+    transition: all 0.5s;
+}
+
+
+/*第三部分*/
+.section3{
+    padding-top:35px ;
+    min-width: 1200px;
+}
+.row_part_title h1{
+    font-size: 24px;
+    font-family:DINOT-Medium;
+    margin-bottom: 40px;
+    color: #2b2c33;
+    text-align: center;
+}
+.you_may_buy{
+    padding: 10px 10px 20px;
+    border: 1px solid #efefef;
+    margin: 20px 0;
+}
+.you_may_buy:hover {
+    box-shadow: 5px 5px 30px #d8d8d8;
+}
+.you_may_buy img{
+    width:100%;
+    height:auto;
+}
+.you_may_buy p{
+    height:56px;
+    padding: 20px 0 0 0;
+    font-size: 14px;
+    color: #2D2D33;
+    letter-spacing: -0.34px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#owl-carousel_second .owl-dots {
+    display: block !important;
+}
+

@@ -1,0 +1,192 @@
+.contact_us_fa{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.short_description b,
+.short_description p,
+.short_description span,
+.short_description strong{
+    font-size:1.4rem !important;
+    font-family: "Microsoft YaHei UI" !important;
+    line-height: 30px !important;
+}
+.short_description{
+    font-family: "Microsoft YaHei UI" !important;
+}
+.detail_description span{
+    font-size: 1.4rem !important;
+    word-wrap: break-word;
+}
+.detail_description{
+    padding: 0 10px;
+    font-size: 1.4rem;
+}
+.detail_description a{
+    font-size: 1.4rem;
+}
+.detail_description table{
+    font-size: 1.4rem;
+}
+.detail_description table tr,
+.detail_description table td,
+.detail_description table tr span,
+.detail_description table td span,
+.detail_description table tr p,
+.detail_description table td p,
+.detail_description table tr p span,
+.detail_description table td p span{
+    font-size: 1.4rem;
+    word-wrap: break-word;
+}
+.detail_description table tr{
+// width:100% !important;
+}
+.detail_description table td{
+// width:100% !important;
+}
+
+/*.detail_description table td:nth-child(odd) p{*/
+/*width:68px !important;*/
+/*}*/
+/*.detail_description table td:nth-child(even) p{*/
+/*width:200px !important;*/
+/*}*/
+
+.section{
+    padding-top: 56px;
+}
+.section1{
+    margin-top:40px;
+    text-align: center;
+}
+.item_pic{
+    position: relative;
+    width:100% ;
+    height: 100%;
+    margin: 0 auto;
+}
+.left_btn{
+    width: 20px;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top:-45px;
+}
+.product_pic{
+    width: 100%;
+    height: auto;
+}
+.right_btn{
+    width: 20px;
+    height: 90px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top:-45px;
+}
+.item_name {
+    text-align:center;
+}
+.item_name p{
+    font-size: 1.4rem;
+    color: #2b2c33;
+    line-height:2.4rem;
+    padding: 10px 10px 30px 10px;
+}
+.fivepics_smallpic{
+    display: none;
+}
+/*第二部分*/
+.short_description{
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size:1.4rem;
+}
+.short_description h3{
+    font-weight:normal;
+    font-size: 18px;
+    color: #2B2C33;
+    letter-spacing: 0px;
+    margin-bottom:10px;
+}
+.the_feature p{
+    font-size: 1.4rem;
+    color: #2B2C33;
+    line-height: 30px;
+}
+.the_feature{
+    margin-bottom:30px;
+    font-size: 1.4rem;
+}
+.the_description p{
+    font-size: 1.4rem;
+    color: #2B2C33;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+.the_description{
+    margin-bottom:40px;
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+.the_description span{
+    font-size: 1.4rem;
+}
+.detail_description{
+    width: 100%;
+    padding: 0 10px;
+    font-size: 1.4rem;
+    overflow-x: scroll !important;
+}
+.detail_description table{
+
+}
+
+/*第三部分*/
+.section3 h3{
+    text-align: center;
+    font-size:14px;
+    margin-bottom: 30px;
+    margin-top:20px;
+}
+.you_may_one{
+    width: 50%;
+    float: left;
+}
+.you_may_one:nth-child(even){
+    padding: 0 5px 0 10px;
+}
+.you_may_one:nth-child(odd){
+    padding: 0 10px 0 5px;
+}
+.you_may_buy{
+    border: 1px solid #d8d8d8;
+    padding: 8.5px 8.5px 20px 8.5px ;
+}
+.you_may_buy img{
+    width: 100%;
+}
+.you_may_one p{
+    padding: 0 8.5px;
+    text-align: left;
+    font-size: 1.4rem;
+    color: #2b2c33;
+    height: 35px;
+    margin: 10px 0 25px 0;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-height: 1.3;
+    -webkit-box-orient: vertical;
+}
+
+
+
+/*# sourceMappingURL=item.css.map */

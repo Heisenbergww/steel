@@ -1,0 +1,28 @@
+.section{
+    padding-top: 56px;
+}
+.section0{
+
+}
+.section1 p{
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+.section1 .p{
+    margin: 0 auto;
+}
+@media screen and (max-width: 374px){
+    .container{
+        width: 100%;
+        padding: 0 5px;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 900px){
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+
+/*# sourceMappingURL=company_information.css.map */

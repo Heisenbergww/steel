@@ -1,0 +1,176 @@
+/*导航的下划线*/
+.menu ul li:nth-child(2) a{
+    border-bottom:2px solid #B7683F;
+}
+/*主体部分*/
+/*第0部分*/
+/*面包屑*/
+.breadcrumb {
+    font-weight: 400;
+    font-size: 14px;
+    margin:10px 0 10px 0;
+    padding:0;
+}
+.breadcrumb a {
+    color: #999;
+    text-decoration: none;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+    color: #000;
+}
+.breadcrumb li.active:before {
+    content: "";
+    padding: 0;
+}
+.breadcrumb.details-breadcrumb {
+    border: none;
+}
+.breadcrumb > li {
+    display: inline-block;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/*第一部分*/
+.section1{
+    text-align: center;
+}
+.section1 img{
+    width: 100%;
+    height: auto;
+}
+
+/*第二部分*/
+.section2{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+/*左侧部分********************/
+.product_menu{
+    width: 96%;
+    min-width: 233px;
+}
+.business-one{
+
+}
+.business-left-title h3{
+    font-size:14px;
+    color: #2B2C33 ;
+    padding: 14px  10px 10px 14px;
+    background: #FAFAFC;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.business-name h3{
+    font-size:14px;
+    color: #2B2C33;
+    padding: 14px  10px 10px 14px;
+    background: #FAFAFC;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.business-left-title h3:hover,
+.business-name h3:hover{
+    background-color: #B7683F;
+    color: #fff;
+}
+.business-name h3 img{
+    /*vertical-align:middle;*/
+    /*margin-left:25px;*/
+    float: right;
+    margin-top: 6px;
+    margin-right: 2px;
+}
+.business-name hr{
+    height: 1px;
+    background: #efefef;
+    width: 100%;
+    border: none;
+
+}
+.business-content{
+    display: none;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #efefef;
+    margin: 0 10px 10px 10px;
+}
+.business-content p{
+    font-size: 14px;
+    padding: 14px 5px 14px 20px;
+    text-indent: 20px;    
+}
+/*.business-content a span{*/
+    /*position: relative;*/
+/*}*/
+.triangle_green{
+    /*position: absolute;*/
+    margin-bottom: -3px;
+    margin-left: -34px;
+    visibility: hidden;
+}
+.business-content a{
+    color: #2b2c33;
+}
+.business-content a:hover{
+    color: #B7683F;
+}
+.business-content a:active{
+    color: #B7683F;
+}
+/*商业联系*/
+.business-contact{
+    border: 1px solid #B7683F;
+    padding: 20px 10px 30px;
+    margin-top: 40px;
+}
+.business-contact h5{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.business-contact p{
+    font-size: 14px;
+    padding: 9px 0;
+}
+.business-contact p span{
+    color: #66676e;
+}
+/*.business-contact p:last-of-type{*/
+    /*margin-bottom:20px;*/
+/*}*/
+.business-contact_ctrl{}
+
+
+/*右侧部分*********************************/
+.product_item_pic{
+    border: 1px solid #efefef;
+    padding: 10px 10px 20px;
+}
+.product_item_pic:hover{
+    box-shadow: 5px 5px 30px #d8d8d8;
+}
+.business-right img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.business-pic-son{
+    margin-bottom:40px;
+}
+.business-pic-son p{
+    height: 36px;
+    font-size: 14px;
+    color: #2D2D33;
+    letter-spacing: -0.34px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.business-pic-son  a{
+    color: #2D2D33;
+}
